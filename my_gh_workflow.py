@@ -33,6 +33,7 @@ def repo_info(repo_owner: str = "PrefectHQ", repo_name: str = "prefect"):
 
     contributors = get_contributors(repo_info)
     print(f"Number of contributors 👷: {len(contributors)}")
+    print("Made by Daniel")
 
 
 if __name__ == "__main__":
